@@ -18,9 +18,6 @@
 <p>A two-step checklist for Accessibility and Screen Recording, with live status and a one-click relaunch so live hover previews actually turn on.</p>
 ]]></description>
             <enclosure url="https://github.com/aaronfisher/StickyWindows/releases/download/v0.2.0/StickyWindows-0.2.0.dmg" length="4054036" type="application/octet-stream" sparkle:edSignature="yBqdTs7RMVTfq/xYoZzdPmp4klDXxwEM2aOpjnSo/C4s/FuSFiSRuWe1JLH4pdONI2YdTeNOOdDbZrvDkLzBDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/aaronfisher/StickyWindows/releases/download/Sticky%20Windows3-2.delta" sparkle:deltaFrom="2" length="336686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8psJT1UPKdyuKWyQQqn60OdoX35l7X68vddYJVqNGxIxBVg4bn2hNo6a3klpo7nDONX6Sb90orXvvOUUUsqQBA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>0.1.0</title>
