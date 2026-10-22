@@ -1,0 +1,8 @@
+{
+  "version": "0.2.0",
+  "build": "3",
+  "date": "2026-10-22",
+  "download": "https://github.com/aaronfisher/StickyWindows/releases/download/v0.2.0/StickyWindows-0.2.0.dmg",
+  "notes": "https://github.com/aaronfisher/StickyWindows/releases/tag/v0.2.0",
+  "minimumSystemVersion": "15.0"
+}

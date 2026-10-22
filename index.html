@@ -352,6 +352,8 @@
   .download-card .amount { font-size: 3.5rem; font-weight: 800; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; }
   .download-card .terms { font-size: .875rem; color: var(--muted-foreground); }
   .download-card .lead { font-size: 1rem; padding-inline: 1.5rem; max-width: 36rem; }
+  .download-card .version { font-variant-numeric: tabular-nums; }
+  .download-card .version a { color: inherit; }
 
   footer { border-top: 1px solid var(--border); padding-block: 1.5rem 3rem; }
   footer .container { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; justify-content: space-between; font-size: .875rem; color: var(--muted-foreground); }
@@ -666,6 +668,9 @@
           <a class="btn btn-default btn-lg" href="https://github.com/aaronfisher/StickyWindows/releases/latest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>Download for macOS</a>
           <a class="btn btn-outline btn-lg" href="https://github.com/aaronfisher/StickyWindows">Source on GitHub</a>
         </div>
+        <p class="muted version" id="version" hidden>
+          <span id="version-text"></span> · <a id="version-notes" href="https://github.com/aaronfisher/StickyWindows/releases">Release notes</a>
+        </p>
         <div class="reqs">
           <span class="badge badge-secondary">macOS 15 Sequoia or later</span>
           <span class="badge badge-secondary">Apple silicon and Intel</span>
@@ -965,6 +970,21 @@
   });
 
   addEventListener('resize', () => { windows.forEach(st => st.parked && placeTab(st)); });
+})();
+
+// Latest release, written next to this page by the release script.
+(async function () {
+  try {
+    const r = await fetch('version.json', { cache: 'no-cache' });
+    if (!r.ok) return;
+    const v = await r.json();
+    const date = new Date(v.date + 'T00:00:00Z');
+    const when = isNaN(date) ? '' : ' · ' + date.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+    document.getElementById('version-text').textContent = 'Version ' + v.version + when;
+    document.getElementById('version-notes').href = v.notes;
+    document.querySelectorAll('a[href$="/releases/latest"]').forEach(a => { if (v.download) a.href = v.download; });
+    document.getElementById('version').hidden = false;
+  } catch (e) { /* no version file: the line stays hidden */ }
 })();
 </script>
 

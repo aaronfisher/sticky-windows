@@ -6,6 +6,23 @@
         <description>Updates for Sticky Windows. Items are added by scripts/release.sh.</description>
         <language>en</language>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Thu, 22 Oct 2026 15:57:16 -0400</pubDate>
+            <link>https://stickywindows.com/</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Tab groups, reworked</h2>
+<p>Drag a window toward a tab and it fans open with previews of what's inside and a big + to drop on. Group tabs fan open on hover; click a preview to reveal it, drag it out of the fan to make it its own tab, or drag it away from the edge to release it. Group tabs no longer flash or jump when windows join or leave.</p>
+<h2>Clearer first-run setup</h2>
+<p>A two-step checklist for Accessibility and Screen Recording, with live status and a one-click relaunch so live hover previews actually turn on.</p>
+]]></description>
+            <enclosure url="https://github.com/aaronfisher/StickyWindows/releases/download/v0.2.0/StickyWindows-0.2.0.dmg" length="4054036" type="application/octet-stream" sparkle:edSignature="yBqdTs7RMVTfq/xYoZzdPmp4klDXxwEM2aOpjnSo/C4s/FuSFiSRuWe1JLH4pdONI2YdTeNOOdDbZrvDkLzBDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/aaronfisher/StickyWindows/releases/download/Sticky%20Windows3-2.delta" sparkle:deltaFrom="2" length="336686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976464" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8psJT1UPKdyuKWyQQqn60OdoX35l7X68vddYJVqNGxIxBVg4bn2hNo6a3klpo7nDONX6Sb90orXvvOUUUsqQBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Thu, 22 Oct 2026 15:12:57 -0400</pubDate>
             <link>https://stickywindows.com/</link>
