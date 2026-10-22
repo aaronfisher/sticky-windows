@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Sticky Windows</title>
-    <link>https://aaronfisher.github.io/StickyWindows/</link>
-    <description>Updates for Sticky Windows. Items are added by scripts/release.sh.</description>
-    <language>en</language>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Sticky Windows</title>
+        <link>https://aaronfisher.github.io/StickyWindows/</link>
+        <description>Updates for Sticky Windows. Items are added by scripts/release.sh.</description>
+        <language>en</language>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Thu, 22 Oct 2026 15:12:57 -0400</pubDate>
+            <link>https://stickywindows.com/</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/aaronfisher/StickyWindows/releases/download/v0.1.0/StickyWindows-0.1.0.dmg" length="3943174" type="application/octet-stream" sparkle:edSignature="ydgp1OF2E58+SP2FaKghy9dorMEqeB0cp4IhkKpxq6ouxOcWVQ0eeaZwrqtsqPsyBV5RqHmn46KbiEykaVCuCA=="/>
+        </item>
+    </channel>
 </rss>
