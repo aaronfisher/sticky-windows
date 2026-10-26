@@ -1,8 +1,8 @@
 {
-  "version": "0.4.0",
-  "build": "5",
+  "version": "0.4.1",
+  "build": "6",
   "date": "2026-10-26",
-  "download": "https://github.com/aaronfisher/StickyWindows/releases/download/v0.4.0/StickyWindows-0.4.0.dmg",
-  "notes": "https://github.com/aaronfisher/StickyWindows/releases/tag/v0.4.0",
+  "download": "https://github.com/aaronfisher/StickyWindows/releases/download/v0.4.1/StickyWindows-0.4.1.dmg",
+  "notes": "https://github.com/aaronfisher/StickyWindows/releases/tag/v0.4.1",
   "minimumSystemVersion": "15.0"
 }
