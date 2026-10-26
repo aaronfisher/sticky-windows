@@ -6,6 +6,20 @@
         <description>Updates for Sticky Windows. Items are added by scripts/release.sh.</description>
         <language>en</language>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Mon, 26 Oct 2026 15:16:44 -0400</pubDate>
+            <link>https://stickywindows.com/</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Tuck handle</h2>
+<p>Windows you've parked now show a small amber handle on their top edge, above the traffic lights, while they're out: click it to tuck the window back, Option-click to release it. Turn it off in Settings → General.</p>
+<h2>Fixes</h2>
+<p>Tabs no longer disappear after the Mac sleeps and wakes. Moving a revealed window keeps its tab (releasing is now always explicit). Right-clicking a tab closes its preview before the menu opens.</p>
+]]></description>
+            <enclosure url="https://github.com/aaronfisher/StickyWindows/releases/download/v0.4.0/StickyWindows-0.4.0.dmg" length="4098103" type="application/octet-stream" sparkle:edSignature="kaFNDxKKXi86L0EEzKJYkzvDVmKqFULv04KMU07lEf8zFIy/ks9i9/pnxlJzEulWfPifWeaEv28rpotz2WazAw=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Mon, 26 Oct 2026 12:13:39 -0400</pubDate>
             <link>https://stickywindows.com/</link>
@@ -30,15 +44,6 @@
 <p>A two-step checklist for Accessibility and Screen Recording, with live status and a one-click relaunch so live hover previews actually turn on.</p>
 ]]></description>
             <enclosure url="https://github.com/aaronfisher/StickyWindows/releases/download/v0.2.0/StickyWindows-0.2.0.dmg" length="4054036" type="application/octet-stream" sparkle:edSignature="yBqdTs7RMVTfq/xYoZzdPmp4klDXxwEM2aOpjnSo/C4s/FuSFiSRuWe1JLH4pdONI2YdTeNOOdDbZrvDkLzBDQ=="/>
-        </item>
-        <item>
-            <title>0.1.0</title>
-            <pubDate>Thu, 22 Oct 2026 15:12:57 -0400</pubDate>
-            <link>https://stickywindows.com/</link>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/aaronfisher/StickyWindows/releases/download/v0.1.0/StickyWindows-0.1.0.dmg" length="3943174" type="application/octet-stream" sparkle:edSignature="ydgp1OF2E58+SP2FaKghy9dorMEqeB0cp4IhkKpxq6ouxOcWVQ0eeaZwrqtsqPsyBV5RqHmn46KbiEykaVCuCA=="/>
         </item>
     </channel>
 </rss>
