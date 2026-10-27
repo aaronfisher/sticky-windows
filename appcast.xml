@@ -6,6 +6,15 @@
         <description>Updates for Sticky Windows. Items are added by scripts/release.sh.</description>
         <language>en</language>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Tue, 27 Oct 2026 00:07:23 -0400</pubDate>
+            <link>https://stickywindows.com/</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/aaronfisher/StickyWindows/releases/download/v0.5.0/StickyWindows-0.5.0.dmg" length="4142119" type="application/octet-stream" sparkle:edSignature="qNwU7IhE2D1DUOeJChj3pk4koAU6v9OVsn5d8jHVs4FSQVsN5oCbw1Y11tRjeQ2XfWG2/lL231Xg8qnjUCoZBw=="/>
+        </item>
+        <item>
             <title>0.4.1</title>
             <pubDate>Mon, 26 Oct 2026 17:21:27 -0400</pubDate>
             <link>https://stickywindows.com/</link>
@@ -30,18 +39,6 @@
 <p>Tabs no longer disappear after the Mac sleeps and wakes. Moving a revealed window keeps its tab (releasing is now always explicit). Right-clicking a tab closes its preview before the menu opens.</p>
 ]]></description>
             <enclosure url="https://github.com/aaronfisher/StickyWindows/releases/download/v0.4.0/StickyWindows-0.4.0.dmg" length="4098103" type="application/octet-stream" sparkle:edSignature="kaFNDxKKXi86L0EEzKJYkzvDVmKqFULv04KMU07lEf8zFIy/ks9i9/pnxlJzEulWfPifWeaEv28rpotz2WazAw=="/>
-        </item>
-        <item>
-            <title>0.3.0</title>
-            <pubDate>Mon, 26 Oct 2026 12:13:39 -0400</pubDate>
-            <link>https://stickywindows.com/</link>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Rename tabs and groups</h2>
-<p>Right-click any tab and choose Rename to give it your own name; it shows on the tab, in the fan, and in the menu, and survives relaunches. Groups can be named too, and can mix windows from different apps.</p>
-]]></description>
-            <enclosure url="https://github.com/aaronfisher/StickyWindows/releases/download/v0.3.0/StickyWindows-0.3.0.dmg" length="4045893" type="application/octet-stream" sparkle:edSignature="AO18DjwpxPnBz5iZ/33IR2NbdfAFA307hWw4xn7sSzybKPsas7SbNDZ3ik4rA3eqGr6xtt1/ML6jB9vUsDMWDA=="/>
         </item>
     </channel>
 </rss>
